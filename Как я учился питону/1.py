@@ -4,7 +4,7 @@ b = random.uniform(0,99999999)
 c = round(b)
 
 k = input('Сколько раз вы хотите воспользоваться программой? ')
-for i in range(99999999):
+for i in range(k):
     b = random.uniform(0,99999999)
     c = round(b)
     a = input('Введите текст: ')
