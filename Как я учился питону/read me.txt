@@ -1,0 +1,206 @@
+  self.rect.center = (587, 375)
+        self.rect.center = (489, 375)
+        self.rect.center = (391, 375)
+        self.rect.center = (293, 375)
+        self.rect.center = (195, 375)
+
+class Button():
+    def __init__(self, x, y, width, height, buttonText='Button', onclickFunction=None, onePress=False):
+        self.x = x
+        self.y = y
+        self.width = width
+        self.height = height
+        self.onclickFunction = onclickFunction
+        self.onePress = onePress
+        self.alreadyPressed = False
+
+        self.fillColors = {
+            'normal': '#ffffff',
+            'hover': '#666666',
+            'pressed': '#333333',
+        }
+16:44 06.03.2023
+
+
+
+customButton = Button(0, 650, 250, 100, 'Бросить КУБИК1', kyb)
+
+p = 1
+if p == 1:
+   customButton = Button(275, 650, 250, 100, 'Бросить КУБИК1', kyb)
+   p + 1
+   
+elif not p == 1:
+   customButton = Button(275, 650, 250, 100, 'Бросить КУБИК2', kyb1)
+   p + 1
+   if not p == 2:     
+       customButton = Button(275, 650, 250, 100, 'Бросить КУБИК3', kyb2)
+       p + 1
+       if not p == 3:
+           customButton = Button(275, 650, 250, 100, 'Бросить КУБИК4', kyb3)
+           p - 3
+red123.rect.x += 58
+
+def move():
+    if r2 == 1:
+        red().rect.x += 95
+    elif r2 == 2:
+        red().rect.x += 191
+    elif r2 == 3:
+        red().rect.x += 293
+    elif r2 == 4:
+        red().rect.x += 391
+    elif r2 == 5:
+        red().rect.x += 489
+    elif r2 == 6:
+        red().rect.x += 587
+
+def kyb():
+    r1 = random.uniform(1,6)
+    r2 = round(r1)
+    if r2 == 1:
+       all_sprites.add(kyb1)
+       all_sprites.remove(kyb2)
+       all_sprites.remove(kyb3)
+       all_sprites.remove(kyb4)
+       all_sprites.remove(kyb5)
+       all_sprites.remove(kyb6)
+    elif r2 == 2:
+       all_sprites.add(kyb2)
+       all_sprites.remove(kyb1)
+       all_sprites.remove(kyb3)
+       all_sprites.remove(kyb4)
+       all_sprites.remove(kyb5)
+       all_sprites.remove(kyb6)
+    elif r2 == 3:
+       all_sprites.add(kyb3)
+       all_sprites.remove(kyb2)
+       all_sprites.remove(kyb1)
+       all_sprites.remove(kyb4)
+       all_sprites.remove(kyb5)
+       all_sprites.remove(kyb6)
+    elif r2 == 4:
+       all_sprites.add(kyb4)
+       all_sprites.remove(kyb2)
+       all_sprites.remove(kyb3)
+       all_sprites.remove(kyb1)
+       all_sprites.remove(kyb5)
+       all_sprites.remove(kyb6)
+    elif r2 == 5:
+       all_sprites.add(kyb5)
+       all_sprites.remove(kyb2)
+       all_sprites.remove(kyb3)
+       all_sprites.remove(kyb4)
+       all_sprites.remove(kyb1)
+       all_sprites.remove(kyb6)
+    elif r2 == 6:
+       all_sprites.add(kyb6)
+       all_sprites.remove(kyb2)
+       all_sprites.remove(kyb3)
+       all_sprites.remove(kyb4)
+       all_sprites.remove(kyb5)
+       all_sprites.remove(kyb1)
+
+class red(pygame.sprite.Sprite):
+    def __init__(self):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.Surface((12, 13))
+        self.image = red
+        self.rect = self.image.get_rect()
+        self.rect.center = (88, 63)
+
+class blue(pygame.sprite.Sprite):
+    def __init__(self):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.Surface((12.5, 12.5))
+        self.image = blue
+        self.rect = self.image.get_rect()
+        self.rect.center = (112.5, 62,5)
+
+
+class green(pygame.sprite.Sprite):
+    def __init__(self):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.Surface((12.5, 12.5))
+        self.image = green
+        self.rect = self.image.get_rect()
+        self.rect.center = (87.5, 87,5)
+
+class yellow(pygame.sprite.Sprite):
+    def __init__(self):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = pygame.S
+
+
+
+    
+def kyb():
+    r1 = random.uniform(1, 6)
+    r2 = round(r1)
+    if r2 == 1:
+       all_sprites.add(kyb1)
+       all_sprites.remove(kyb2)
+       all_sprites.remove(kyb3)
+       all_sprites.remove(kyb4)
+       all_sprites.remove(kyb5)
+       all_sprites.remove(kyb6)
+    elif r2 == 2:
+       all_sprites.add(kyb2)
+       all_sprites.remove(kyb1)
+       all_sprites.remove(kyb3)
+       all_sprites.remove(kyb4)
+       all_sprites.remove(kyb5)
+       all_sprites.remove(kyb6)
+    elif r2 == 3:
+       all_sprites.add(kyb3)
+       all_sprites.remove(kyb2)
+       all_sprites.remove(kyb1)
+       all_sprites.remove(kyb4)
+       all_sprites.remove(kyb5)
+       all_sprites.remove(kyb6)
+    elif r2 == 4:
+       all_sprites.add(kyb4)
+       all_sprites.remove(kyb2)
+       all_sprites.remove(kyb3)
+       all_sprites.remove(kyb1)
+       all_sprites.remove(kyb5)
+       all_sprites.remove(kyb6)
+    elif r2 == 5:
+       all_sprites.add(kyb5)
+       all_sprites.remove(kyb2)
+       all_sprites.remove(kyb3)
+       all_sprites.remove(kyb4)
+       all_sprites.remove(kyb1)
+       all_sprites.remove(kyb6)
+    elif r2 == 6:
+       all_sprites.add(kyb6)
+       all_sprites.remove(kyb2)
+       all_sprites.remove(kyb3)
+       all_sprites.remove(kyb4)
+       all_sprites.remove(kyb5)
+       all_sprites.remove(kyb1)
+    class red1(pygame.sprite.Sprite):
+        def __init__(self):
+            pygame.sprite.Sprite.__init__(self)
+            self.image = pygame.Surface((12, 13))
+            self.image = red
+            self.rect = self.image.get_rect()
+            self.rect.center = (88, 63)
+if red123.rect.left >= 600:
+            red123.rect.y += 75
+
+        def update(self):
+            if r2 == 1:
+               self.rect.x += 95
+            elif r2 == 2:
+               self.rect.x += 191
+            elif r2 == 3:
+               self.rect.x += 293
+            elif r2 == 4:
+               self.rect.x += 391
+            elif r2 == 5:
+               self.rect.x += 489
+            elif r2 == 6:
+               self.rect.x += 587
+        self.rect = self.image.get_rect()
+        self.rect.center = (112.5, 87,5)
