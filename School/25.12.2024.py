@@ -38,13 +38,24 @@ def z3():
     for elem in a:
         stroka = elem
 
-
+        x =""
         for bykva in stroka:
             if bykva in znaki:
-                stroka.replace(bykva, "")
-        if stroka not in spisoknew:
+                x = stroka.replace(bykva, "")
+        if x not in spisoknew:
             count+=1
-            spisoknew.append(elem)
+            spisoknew.append(x)
     print(spisoknew, count)
-
-z3()
+def z4():
+    a = list(map(str, input().split(" ")))
+    b = list(map(str, input().split(" ")))
+    for i in range(len(a)):
+        print(f"{a[i]} - {b[i]}")
+def z5():
+    a = list(map(str, input().split(" ")))
+    b = list(map(str, input().split(" ")))
+    for elem in a:
+        if elem in b:
+            spisoknew = spisoknew.replace(elem, "*")
+    print(spisoknew)
+z5()

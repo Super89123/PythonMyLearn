@@ -4,20 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f52b4cad-c9da-42c0-862b-ae12590e68d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11.27.2024.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13112024.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3nok.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/25.12.2024.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/4.12.2024.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kr18122024.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sender.py" afterDir="false" />
+    <list default="true" id="f52b4cad-c9da-42c0-862b-ae12590e68d6" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/School/12.02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/15.1.2025.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/19 апреля 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/19 апреля.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/22.1.2025.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/30 апреля.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/5 апреля.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/5.2.2025.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/School/7 мая 2025.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deepseek.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mcClient.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/School.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/School/25.12.2024.py" beforeDir="false" afterPath="$PROJECT_DIR$/School/25.12.2024.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Super89123&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Super89123/PythonMyLearn&quot;,
+    &quot;accountId&quot;: &quot;705a4e27-2cbf-47fa-bf96-1abd8f4b387d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -46,17 +60,29 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.11.27.2024.executor": "Run",
+    "Python.12.02.executor": "Run",
     "Python.13112024.executor": "Run",
+    "Python.15.1.2025.executor": "Run",
+    "Python.19 апреля 2.executor": "Run",
+    "Python.19 апреля.executor": "Run",
     "Python.20.12.2024.executor": "Run",
+    "Python.22.1.2025.executor": "Run",
     "Python.25.12.2024.executor": "Run",
+    "Python.29.02.2025.executor": "Run",
+    "Python.30 апреля.executor": "Run",
     "Python.3nok.executor": "Run",
+    "Python.5 апреля.executor": "Run",
+    "Python.5.2.2025.executor": "Run",
+    "Python.7 мая 2025.executor": "Run",
     "Python.School.executor": "Run",
     "Python.colab09102024.executor": "Run",
+    "Python.deepseek.executor": "Run",
     "Python.dfdfd.executor": "Run",
     "Python.evklid.executor": "Run",
     "Python.kr.executor": "Run",
     "Python.kr18122024.executor": "Run",
     "Python.laslalla.executor": "Run",
+    "Python.mcClient.executor": "Run",
     "Python.nod.executor": "Run",
     "Python.olymp.executor": "Run",
     "Python.sender.executor": "Run",
@@ -64,7 +90,9 @@
     "Python.universal.executor": "Run",
     "Python.veryLastOne.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/relaxertime/Downloads/pyGDAI",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -83,7 +111,20 @@
       <option name="presentableId" value="Default" />
       <updated>1727274323154</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1735105804836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735105804836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
